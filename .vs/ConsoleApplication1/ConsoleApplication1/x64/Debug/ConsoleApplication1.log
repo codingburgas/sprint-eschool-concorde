@@ -1,0 +1,7 @@
+﻿  TestMenu.cpp
+  main.cpp
+D:\C++\sprint-eschool-concorde\.vs\TestMenu.cpp(32,9): error C3861: 'SymbolistTest': identifier not found
+D:\C++\sprint-eschool-concorde\.vs\TestMenu.cpp(35,3): error C3861: 'SpleenTest': identifier not found
+D:\C++\sprint-eschool-concorde\.vs\TestMenu.cpp(38,3): error C3861: 'AutumnSongTest': identifier not found
+D:\C++\sprint-eschool-concorde\.vs\TestMenu.cpp(6,17): error C1075: '{': no matching token found
+  Generating Code...
