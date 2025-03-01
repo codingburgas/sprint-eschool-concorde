@@ -3,16 +3,18 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\TestMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\AutumnSongTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\AutumnSongTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\SymbolistTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\SpleenTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\AutumnSongTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\AutumnSongTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\SpleenTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\SymbolistTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -21,15 +23,13 @@
       "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\TestMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\SymbolistTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\TestMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\AutumnSongTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\AutumnSongTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\SymbolistTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\AutumnSongTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\AutumnSongTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F4056ED4-A11B-4835-BAE8-433B96C7C39A}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\SpleenTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,43 +39,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "AutumnSongTest.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\AutumnSongTest.cpp",
               "RelativeDocumentMoniker": "ConsoleApplication1\\AutumnSongTest.cpp",
               "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\AutumnSongTest.cpp",
               "RelativeToolTip": "ConsoleApplication1\\AutumnSongTest.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-01T16:00:51.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "AutumnSongTest.h",
               "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\AutumnSongTest.h",
               "RelativeDocumentMoniker": "ConsoleApplication1\\AutumnSongTest.h",
               "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\AutumnSongTest.h",
               "RelativeToolTip": "ConsoleApplication1\\AutumnSongTest.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-01T15:59:33.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "SymbolistTest.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\SymbolistTest.cpp",
               "RelativeDocumentMoniker": "..\\SymbolistTest.cpp",
               "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\SymbolistTest.cpp",
               "RelativeToolTip": "..\\SymbolistTest.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-01T15:54:38.407Z",
               "EditorCaption": ""
@@ -88,7 +88,7 @@
               "RelativeDocumentMoniker": "..\\TestMenu.cpp",
               "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\TestMenu.cpp",
               "RelativeToolTip": "..\\TestMenu.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-01T14:46:53.26Z",
               "EditorCaption": ""
@@ -101,14 +101,14 @@
               "RelativeDocumentMoniker": "..\\main.cpp",
               "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\main.cpp",
               "RelativeToolTip": "..\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-01T13:34:02.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SpleenTest.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\SpleenTest.cpp",
               "RelativeDocumentMoniker": "..\\SpleenTest.cpp",
@@ -121,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "SpleenTest.h",
               "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\SpleenTest.h",
               "RelativeDocumentMoniker": "..\\SpleenTest.h",
@@ -129,12 +129,11 @@
               "RelativeToolTip": "..\\SpleenTest.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-01T13:34:00.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T13:34:00.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "SymbolistTest.h",
               "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\SymbolistTest.h",
               "RelativeDocumentMoniker": "..\\SymbolistTest.h",
@@ -142,12 +141,11 @@
               "RelativeToolTip": "..\\SymbolistTest.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-01T13:34:00.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T13:34:00.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "TestMenu.h",
               "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\TestMenu.h",
               "RelativeDocumentMoniker": "..\\TestMenu.h",
