@@ -1,5 +1,4 @@
 ﻿  testSocialRealism.cpp
-C:\Users\User\PRG-Project\testSocialRealism\testSocialRealism\testSocialRealism.cpp(34,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  testSocialRealism.vcxproj -> C:\Users\User\PRG-Project\testSocialRealism\x64\Debug\testSocialRealism.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+C:\Users\User\RIPO\sprint-eschool-concorde\.vs\testSocialRealism\testSocialRealism\testSocialRealism.cpp(26,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\User\RIPO\sprint-eschool-concorde\.vs\testSocialRealism\x64\Debug\testSocialRealism.exe : fatal error LNK1120: 1 unresolved externals
