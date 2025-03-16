@@ -18,4 +18,37 @@ It School to Test and Grade your knowledge about Bulgarian and Universal Literat
 ## About
  Easy Navigation. <br>
  Success ratings. <br>
- Leaderboards. <br>  
+ Leaderboards. <br>
+
+
+## Team Members
+
+<center>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Role</th>
+    <th>Grade</th>
+  </tr>
+  <tr>
+    <td><b>Bojidar Georgiev</b></td>
+    <td>Scrum Trainer</td>
+    <td><span style="background-color: red; color: white; padding: 5px 10px; border-radius: 5px;">9B</span></td>
+  </tr>
+  <tr>
+    <td><b>Stilian Palazov</b></td>
+    <td>Front-End Developer</td>
+    <td><span style="background-color: red; color: white; padding: 5px 10px; border-radius: 5px;">9B</span></td>
+  </tr>
+  <tr>
+    <td><b>Kristian Andreev</b></td>
+    <td>Back-End Developer</td>
+    <td><span style="background-color: blue; color: black; padding: 5px 10px; border-radius: 5px;">9G</span></td>
+  </tr>
+  <tr>
+    <td><b>Mihail Karanikolov</b></td>
+    <td>Designer</td>
+    <td><span style="background-color: blue; color: white; padding: 5px 10px; border-radius: 5px;">9G</span></td>
+  </tr>
+</table>
+</center>
