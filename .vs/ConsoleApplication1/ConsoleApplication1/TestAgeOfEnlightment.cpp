@@ -74,4 +74,18 @@ void AgeOfenlightenmentTest() {
 
     cout << "Test Completed! Your final score: " << OverallScore << " points" << endl;
     cout << "Percentage: " << (OverallScore / 26) * 100 << "%" << endl;
+    if (OverallScore >= 23) {
+		cout << "Grade: A (Excellent)" << endl;
+	}
+	else if (OverallScore >= 18) {
+		cout << "Grade: B (Very Good)" << endl;
+    } else if (OverallScore >= 14) {
+		cout << "Grade: C (Good)" << endl;
+	}
+	else if (OverallScore >= 11) {
+		cout << "Grade: D (Normal)" << endl;
+	}
+	else {
+		cout << "Grade: F (Fail)" << endl;
+	}
 }

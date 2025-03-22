@@ -1,34 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\",
+  "WorkspaceRootPath": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\TestAgeOfEnlightment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\TestAgeOfEnlightment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\Enlightenment.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Enlightenment.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\TestMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\TestMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\TestMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\testSocialRealism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\testSocialRealism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\Modernism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\Modernism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Modernism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\testSocialRealism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\testSocialRealism.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\TestAgeOfEnlightment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\TestAgeOfEnlightment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\testRealism.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\testRealism.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\Enlightenment.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E77A9C6F-F9AC-479D-A40C-DE14E9102235}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Enlightenment.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Enlightenment.h",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\Enlightenment.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\Enlightenment.h",
               "RelativeDocumentMoniker": "ConsoleApplication1\\Enlightenment.h",
-              "ToolTip": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\Enlightenment.h",
+              "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\Enlightenment.h",
               "RelativeToolTip": "ConsoleApplication1\\Enlightenment.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-17T19:10:08.001Z",
               "IsPinned": true,
@@ -57,10 +61,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "testRealism.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\testRealism.h",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\testRealism.h",
+              "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\testRealism.h",
+              "RelativeToolTip": "ConsoleApplication1\\testRealism.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-18T17:57:56.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "main.h",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\main.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\main.h",
               "RelativeDocumentMoniker": "ConsoleApplication1\\main.h",
-              "ToolTip": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\main.h",
+              "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\main.h",
               "RelativeToolTip": "ConsoleApplication1\\main.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -71,48 +88,48 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\main.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\main.cpp",
               "RelativeDocumentMoniker": "ConsoleApplication1\\main.cpp",
-              "ToolTip": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\main.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\main.cpp",
               "RelativeToolTip": "ConsoleApplication1\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T19:09:54.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TestAgeOfEnlightment.cpp",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\TestAgeOfEnlightment.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\TestAgeOfEnlightment.cpp",
               "RelativeDocumentMoniker": "ConsoleApplication1\\TestAgeOfEnlightment.cpp",
-              "ToolTip": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\TestAgeOfEnlightment.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\TestAgeOfEnlightment.cpp",
               "RelativeToolTip": "ConsoleApplication1\\TestAgeOfEnlightment.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T19:06:20.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "testSocialRealism.cpp",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\testSocialRealism.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\testSocialRealism.cpp",
               "RelativeDocumentMoniker": "ConsoleApplication1\\testSocialRealism.cpp",
-              "ToolTip": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\testSocialRealism.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\testSocialRealism.cpp",
               "RelativeToolTip": "ConsoleApplication1\\testSocialRealism.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T19:05:58.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Modernism.cpp",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\Modernism.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\Modernism.cpp",
               "RelativeDocumentMoniker": "ConsoleApplication1\\Modernism.cpp",
-              "ToolTip": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\Modernism.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\Modernism.cpp",
               "RelativeToolTip": "ConsoleApplication1\\Modernism.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -121,13 +138,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TestMenu.cpp",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\TestMenu.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\TestMenu.cpp",
               "RelativeDocumentMoniker": "ConsoleApplication1\\TestMenu.cpp",
-              "ToolTip": "D:\\C\u002B\u002B\\test\\ConsoleApplication1\\ConsoleApplication1\\TestMenu.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\sprint-eschool-concorde\\.vs\\ConsoleApplication1\\ConsoleApplication1\\TestMenu.cpp",
               "RelativeToolTip": "ConsoleApplication1\\TestMenu.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T19:05:30Z",
               "EditorCaption": ""
