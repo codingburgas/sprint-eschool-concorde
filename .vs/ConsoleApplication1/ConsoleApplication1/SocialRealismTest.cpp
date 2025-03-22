@@ -1,7 +1,14 @@
-#ifndef testRealism
-#define testRealism
+#include <iostream>
+#include <string>
+#include <stdlib.h>
+#include <time.h>
+#include <cstdlib>
 
 
+using namespace std;
+
+void SocialRealismTest()
+{
 
 
 
@@ -111,7 +118,7 @@
     for (int i = 0; i < 10; i++) {
 
         cout << "||||" << PickedQuestionEasy[i] << "||||" << endl;
-
+        
 
 
         cout << endl;
@@ -132,7 +139,7 @@
     for (int i = 0; i < 6; i++) {
 
         cout << "||||" << PickedQuestionMedium[i] << "||||" << endl;
-
+        
 
         cout << endl;
 
@@ -152,7 +159,7 @@
     for (int i = 0; i < 4; i++) {
 
         cout << "||||" << PickedQuestionHard[i] << "||||" << endl;
-
+        
 
         cout << endl;
 
@@ -207,7 +214,4 @@
     cout << "Your final grade is: " << FinalGrade;
 
 
-
-
-
-#endif
+}
