@@ -4,10 +4,16 @@
 #include "testRealism.h"
 #include "Modernism.h" 
 #include "main.h"
+#include <windows.h>
 
 using namespace std;
 
 void testmenu() {
+    // Get the console handle
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+
+    // Set the background color to white and text color to dark blue
+    SetConsoleTextAttribute(hConsole, BACKGROUND_RED | BACKGROUND_GREEN | BACKGROUND_BLUE | FOREGROUND_BLUE);
     system("CLS");
     cout << "-/-----------------------------------------------------------------------------------------------------------------/-" << endl;
     cout << "    _________ _______  _______ _________   _______  _______  _______ __________________ _______  _       " << endl;
@@ -31,6 +37,7 @@ void testmenu() {
     cout << "                                                                                                              " << endl;
     cout << "-/-----------------------------------------------------------------------------------------------------------------/-" << endl;
     int optionTestMenu;
+    cout << "                                        Your choice: ";
     cin >> optionTestMenu;
 
     if (optionTestMenu == 1) {

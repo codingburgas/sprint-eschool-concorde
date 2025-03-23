@@ -2,6 +2,7 @@
 #include <string>
 #include <stdlib.h>
 #include <time.h>
+#include <windows.h>
 #include <cstdlib>
 #include "testRealism.h"
 
@@ -9,63 +10,69 @@ using namespace std;
 
 void SocialRealismTest()
 {
-    //questions and their respective answers ("qeustion 1, 2 ..." is to be replaced with the question, as well as their answers)
+    // Get the console handle
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+
+    // Set the background color to white and text color to dark blue
+    SetConsoleTextAttribute(hConsole, BACKGROUND_RED | BACKGROUND_GREEN | BACKGROUND_BLUE | FOREGROUND_BLUE);
+    //questions and their respective answersw
     string questionsEasy[20] = {
-    "What is social realism?\na) A literary movement depicting social issues.\nb) A fantasy genre.\nc) A political ideology.\nd) A historical period.",
-    "In which century did social realism emerge?\na) 18th century.\nb) 19th century.\nc) 20th century.\nd) 21st century.",
-    "Who is the author of Father Goriot?\na) Victor Hugo.\nb) Honore de Balzac.\nc) Gustave Flaubert.\nd) Emile Zola.",
-    "Who is the author of Madame Bovary?\na) Emile Zola.\nb) Honore de Balzac.\nc) Gustave Flaubert.\nd) Victor Hugo.",
-    "In which country does Father Goriot take place?\na) Germany.\nb) Italy.\nc) France.\nd) England.",
-    "In which country does Madame Bovary take place?\na) France.\nb) Spain.\nc) Italy.\nd) Russia.",
-    "What is the name of the young student in Father Goriot?\na) Lucien de Rubempre.\nb) Eugene de Rastignac.\nc) Charles Bovary.\nd) Vautrin.",
-    "What is the name of Emma Bovary's husband?\na) Eugene.\nb) Charles.\nc) Leon.\nd) Rodolphe.",
-    "What is the main theme of Father Goriot?\na) Money and society.\nb) Love and betrayal.\nc) Adventure and heroism.\nd) Political conflict.",
-    "What is the main theme of Madame Bovary?\na) Friendship.\nb) Illusions and reality.\nc) War and peace.\nd) Science and progress.",
-    "What does Madame Vauquer’s boarding house symbolize?\na) Love and passion.\nb) Social hierarchy.\nc) Education.\nd) Political power.",
-    "What leads to Emma Bovary’s downfall?\na) Her love for Charles.\nb) Debt and affairs.\nc) A tragic accident.\nd) Her devotion to family.",
-    "What was Father Goriot’s social status at the beginning of the novel?\na) Wealthy merchant.\nb) Poor beggar.\nc) Noble aristocrat.\nd) Government official.",
-    "What genre is Madame Bovary?\na) Fantasy.\nb) Science fiction.\nc) Realist novel.\nd) Gothic horror.",
-    "What genre is Father Goriot?\na) Romantic novel.\nb) Realist novel.\nc) Epic poem.\nd) Satire.",
-    "Which literary movement came before social realism?\na) Modernism.\nb) Romanticism.\nc) Symbolism.\nd) Surrealism.",
-    "What is the nature of Vautrin in Father Goriot?\na) Innocent scholar.\nb) Criminal mastermind.\nc) Wealthy businessman.\nd) Religious leader.",
-    "What is the name of the town where the Bovarys live?\na) Rouen.\nb) Yonville.\nc) Paris.\nd) Marseille.",
-    "What is Charles Bovary's profession?\na) Doctor.\nb) Lawyer.\nc) Banker.\nd) Professor.",
-    "What happens to Father Goriot’s daughters?\na) They become famous.\nb) They abandon him.\nc) They care for him.\nd) They move abroad."
+    "                    What is social realism?\n                    a) A literary movement depicting social issues.\n                    b) A fantasy genre.\n                    c) A political ideology.\n                    d) A historical period.\n                    ",
+    "                    In which century did social realism emerge?\n                    a) 18th century.\n                    b) 19th century.\n                    c) 20th century.\n                    d) 21st century.\n                    ",
+    "                    Who is the author of Father Goriot?\n                    a) Victor Hugo.\n                    b) Honore de Balzac.\n                    c) Gustave Flaubert.\n                    d) Emile Zola.\n                    ",
+    "                    Who is the author of Madame Bovary?\n                    a) Emile Zola.\n                    b) Honore de Balzac.\n                    c) Gustave Flaubert.\n                    d) Victor Hugo.\n                    ",
+    "                    In which country does Father Goriot take place?\n                    a) Germany.\n                    b) Italy.\n                    c) France.\n                    d) England.\n                    ",
+    "                    In which country does Madame Bovary take place?\n                    a) France.\n                    b) Spain.\n                    c) Italy.\n                    d) Russia.\n                    ",
+    "                    What is the name of the young student in Father Goriot?\na) Lucien de Rubempre.\n                    b) Eugene de Rastignac.\n                    c) Charles Bovary.\n                    d) Vautrin.\n                    ",
+    "                    What is the name of Emma Bovary's husband?\n                    a) Eugene.\n                    b) Charles.\n                    c) Leon.\n                    d) Rodolphe.\n                    ",
+    "                    What is the main theme of Father Goriot?\n                    a) Money and society.\n                    b) Love and betrayal.\n                    c) Adventure and heroism.\n                    d) Political conflict.\n                    ",
+    "                    What is the main theme of Madame Bovary?\n                    a) Friendship.\n                    b) Illusions and reality.\n                    c) War and peace.\n                    d) Science and progress.\n                    ",
+    "                    What does Madame Vauquer’s boarding house symbolize?\n                    a) Love and passion.\n                    b) Social hierarchy.\n                    c) Education.\n                    d) Political power.\n                    ",
+    "                    What leads to Emma Bovary’s downfall?\n                    a) Her love for Charles.\n                    b) Debt and affairs.\n                    c) A tragic accident.\n                    d) Her devotion to family.\n                    ",
+    "                    What was Father Goriot’s social status at the beginning of the novel?\n                    a) Wealthy merchant.\n                    b) Poor beggar.\n                    c) Noble aristocrat.\n                    d) Government official.\n                    ",
+    "                    What genre is Madame Bovary?\n                    a) Fantasy.\n                    b) Science fiction.\n                    c) Realist novel.\n                    d) Gothic horror.\n                    ",
+    "                    What genre is Father Goriot?\n                    a) Romantic novel.\n                    b) Realist novel.\n                    c) Epic poem.\n                    d) Satire.\n                    ",
+    "                    Which literary movement came before social realism?\n                    a) Modernism.\n                    b) Romanticism.\n                    c) Symbolism.\n                    d) Surrealism.\n                    ",
+    "                    What is the nature of Vautrin in Father Goriot?\n                    a) Innocent scholar.\n                    b) Criminal mastermind.\n                    c) Wealthy businessman.\n                    d) Religious leader.\n                    ",
+    "                    What is the name of the town where the Bovarys live?\n                    a) Rouen.\n                    b) Yonville.\n                    c) Paris.\n                    d) Marseille.\n                    ",
+    "                    What is Charles Bovary's profession?\n                    a) Doctor.\n                    b) Lawyer.\n                    c) Banker.\n                    d) Professor.\n                    ",
+    "                    What happens to Father Goriot’s daughters?\n                    a) They become famous.\n                    b) They abandon him.\n                    c) They care for him.\n                    d) They move abroad.\n                    "
     };
 
     string questionsMedium[20] = {
-    "What genre is Father Goriot?\na) Romantic novel.\nb) Realist novel.\nc) Epic poem.\nd) Satire.",
-    "What genre is Madame Bovary?\na) Fantasy.\nb) Science fiction.\nc) Realist novel.\nd) Gothic horror.",
-    "What is the main theme of Father Goriot?\na) Money and society.\nb) Love and betrayal.\nc) Adventure and heroism.\nd) Political conflict.",
-    "What is the main theme of Madame Bovary?\na) Friendship.\nb) Illusions and reality.\nc) War and peace.\nd) Science and progress.",
-    "What is Rastignac’s social status at the beginning?\na) Poor student.\nb) Wealthy aristocrat.\nc) Middle-class merchant.\nd) Government official.",
-    "How did Father Goriot make his fortune?\na) Through trade.\nb) Inheritance.\nc) Gambling.\nd) Banking.",
-    "What happens to Father Goriot’s daughters?\na) They reject him.\nb) They care for him.\nc) They inherit his wealth.\nd) They move abroad.",
-    "Which character in Father Goriot is a criminal?\na) Vautrin.\nb) Rastignac.\nc) Goriot.\nd) Madame Vauquer.",
-    "What is Emma Bovary’s husband’s profession?\na) Doctor.\nb) Lawyer.\nc) Banker.\nd) Professor.",
-    "How does Emma Bovary die?\na) Poisoning herself.\nb) Illness.\nc) Drowning.\nd) Murder.",
-    "What does Rastignac dream of achieving?\na) Wealth and success.\nb) Love and happiness.\nc) Political power.\nd) Artistic fame.",
-    "What is Emma Bovary’s main flaw?\na) Naivety.\nb) Wisdom.\nc) Honesty.\nd) Strength.",
-    "Who wrote The Human Comedy?\na) Balzac.\nb) Flaubert.\nc) Zola.\nd) Hugo.",
-    "In which century did Balzac live?\na) 19th century.\nb) 18th century.\nc) 20th century.\nd) 21st century.",
-    "In which century did Flaubert live?\na) 19th century.\nb) 18th century.\nc) 20th century.\nd) 21st century.",
-    "How does Flaubert present reality?\na) Objectively.\nb) Subjectively.\nc) Idealistically.\nd) Romantically.",
-    "What literary technique does Balzac use?\na) Detailed description.\nb) Symbolism.\nc) Allegory.\nd) Stream of consciousness.",
-    "What is Emma Bovary’s marriage like?\na) Unhappy.\nb) Passionate.\nc) Violent.\nd) Joyful.",
-    "How does Father Goriot end?\na) Goriot dies poor.\nb) Goriot becomes rich.\nc) Goriot moves abroad.\nd) Goriot is arrested.",
-    "What does Rastignac say at the end of the novel?\na) 'It’s between us now, Paris and me!' \nb) 'I regret nothing.'\nc) 'I have failed.'\nd) 'We must change the world!'"};
+     "                    What genre is Father Goriot?\n                    a) Romantic novel.\n                    b) Realist novel.\n                    c) Epic poem.\n                    d) Satire.\n                    ",
+     "                    What genre is Madame Bovary?\n                    a) Fantasy.\n                    b) Science fiction.\n                    c) Realist novel.\n                    d) Gothic horror.\n                    ",
+     "                    What is the main theme of Father Goriot?\n                    a) Money and society.\n                    b) Love and betrayal.\n                    c) Adventure and heroism.\n                    d) Political conflict.\n                    ",
+     "                    What is the main theme of Madame Bovary?\n                    a) Friendship.\n                    b) Illusions and reality.\n                    c) War and peace.\n                    d) Science and progress.\n                    ",
+     "                    What is Rastignac’s social status at the beginning?\n                    a) Poor student.\n                    b) Wealthy aristocrat.\n                    c) Middle-class merchant.\n                    d) Government official.\n                    ",
+     "                    How did Father Goriot make his fortune?\n                    a) Through trade.\n                    b) Inheritance.\n                    c) Gambling.\n                    d) Banking.\n                    ",
+     "                    What happens to Father Goriot’s daughters?\n                    a) They reject him.\n                    b) They care for him.\n                    c) They inherit his wealth.\n                    d) They move abroad.\n                    ",
+     "                    Which character in Father Goriot is a criminal?\n                    a) Vautrin.\n                    b) Rastignac.\n                    c) Goriot.\n                    d) Madame Vauquer.\n                    ",
+     "                    What is Emma Bovary’s husband’s profession?\n                    a) Doctor.\n                    b) Lawyer.\n                    c) Banker.\n                    d) Professor.\n                    ",
+     "                    How does Emma Bovary die?\n                    a) Poisoning herself.\n                    b) Illness.\n                    c) Drowning.\n                    d) Murder.\n                    ",
+     "                    What does Rastignac dream of achieving?\n                    a) Wealth and success.\n                    b) Love and happiness.\n                    c) Political power.\n                    d) Artistic fame.\n                    ",
+     "                    What is Emma Bovary’s main flaw?\n                    a) Naivety.\n                    b) Wisdom.\n                    c) Honesty.\n                    d) Strength.\n                    ",
+     "                    Who wrote The Human Comedy?\n                    a) Balzac.\n                    b) Flaubert.\n                    c) Zola.\n                    d) Hugo.\n                    ",
+     "                    In which century did Balzac live?\n                    a) 19th century.\n                    b) 18th century.\n                    c) 20th century.\n                    d) 21st century.\n                    ",
+     "                    In which century did Flaubert live?\n                    a) 19th century.\n                    b) 18th century.\n                    c) 20th century.\n                    d) 21st century.\n                    ",
+     "                    How does Flaubert present reality?\n                    a) Objectively.\n                    b) Subjectively.\n                    c) Idealistically.\n                    d) Romantically.\n                    ",
+     "                    What literary technique does Balzac use?\na) Detailed description.\n                    b) Symbolism.\n                    c) Allegory.\n                    d) Stream of consciousness.\n                    ",
+     "                    What is Emma Bovary’s marriage like?\na) Unhappy.\n                    b) Passionate.\n                    c) Violent.\n                    d) Joyful.\n                    ",
+     "                    How does Father Goriot end?\n                    a) Goriot dies poor.\n                    b) Goriot becomes rich.\n                    c) Goriot moves abroad.\n                    d) Goriot is arrested.\n                    ",
+     "                    What does Rastignac say at the end of the novel?\n                    a) 'It’s between us now, Paris and me!'\n                    b) 'I regret nothing.'\n                    c) 'I have failed.'\n                    d) 'We must change the world!'\n                    "
+    };
 
     string questionsHard[10] = {
-     "Which literary movement came before social realism?\na) Modernism.\nb) Romanticism.\nc) Symbolism.\nd) Surrealism.",
-     "What main issue does Balzac reveal?\na) The power of money.\nb) The struggles of war.\nc) The importance of family.\nd) The decline of nobility.",
-     "What main issue does Flaubert reveal?\na) Political corruption.\nb) Illusory dreams.\nc) The brutality of war.\nd) The rise of democracy.",
-     "What does Madame Vauquer’s boarding house symbolize?\na) Social hierarchy.\nb) Economic prosperity.\nc) Political corruption.\nd) Religious devotion.",
-     "Which character in Father Goriot represents the criminal world?\na) Vautrin.\nb) Rastignac.\nc) Madame Vauquer.\nd) Goriot.",
-     "What literary method does Flaubert use?\na) Objectivity.\nb) Sentimentalism.\nc) Allegory.\nd) Romantic idealism.",
-     "What is Emma Bovary’s goal?\na) To live like in a novel.\nb) To become a doctor.\nc) To rule a kingdom.\nd) To be a great writer.",
-     "What happens to Emma Bovary’s husband?\na) He dies of grief.\nb) He remarries.\nc) He moves away.\nd) He becomes wealthy.",
-     "What does Madame Bovary criticize?\na) Bourgeois values.\nb) Religious institutions.\nc) Political systems.\nd) Scientific advancements.",
-     "What style does Balzac use?\na) Realism.\nb) Romanticism.\nc) Naturalism.\nd) Symbolism."
+     "                    Which literary movement came before social realism?\n                    a) Modernism.\n                    b) Romanticism.\n                    c) Symbolism.\n                    d) Surrealism.",
+     "                    What main issue does Balzac reveal?\n                    a) The power of money.\n                    b) The struggles of war.\n                    c) The importance of family.\n                    d) The decline of nobility.",
+     "                    What main issue does Flaubert reveal?\n                    a) Political corruption.\n                    b) Illusory dreams.\n                    c) The brutality of war.\n                    d) The rise of democracy.",
+     "                    What does Madame Vauquer’s boarding house symbolize?\n                    a) Social hierarchy.\n                    b) Economic prosperity.\n                    c) Political corruption.\n                    d) Religious devotion.",
+     "                    Which character in Father Goriot represents the criminal world?\n                    a) Vautrin.\n                    b) Rastignac.\n                    c) Madame Vauquer.\n                    d) Goriot.",
+     "                    What literary method does Flaubert use?\n                    a) Objectivity.\n                    b) Sentimentalism.\n                    c) Allegory.\n                    d) Romantic idealism.",
+     "                    What is Emma Bovary’s goal?\n                    a) To live like in a novel.\n                    b) To become a doctor.\n                    c) To rule a kingdom.\n                    d) To be a great writer.",
+     "                    What happens to Emma Bovary’s husband?\n                    a) He dies of grief.\n                    b) He remarries.\n                    c) He moves away.\n                    d) He becomes wealthy.",
+     "                    What does Madame Bovary criticize?\n                    a) Bourgeois values.\n                    b) Religious institutions.\n                    c) Political systems.\n                    d) Scientific advancements.",
+     "                    What style does Balzac use?\n                    a) Realism.\n                    b) Romanticism.\n                    c) Naturalism.\n                    d) Symbolism."
     };
 
     string answersEasy[20] = {
@@ -172,11 +179,11 @@ void SocialRealismTest()
 
     for (int i = 0; i < 10; i++) {
 
-        cout << "||||" << PickedQuestionEasy[i] << "||||" << endl;
+        cout << "                    " << PickedQuestionEasy[i] << endl;
         
 
 
-        cout << endl;
+        cout << "                                        Your choice: ";
 
         getline(cin, EnteredAnswerEasy[i]);
 
@@ -193,10 +200,10 @@ void SocialRealismTest()
 
     for (int i = 0; i < 6; i++) {
 
-        cout << "||||" << PickedQuestionMedium[i] << "||||" << endl;
+        cout << "                    " << PickedQuestionMedium[i] << endl;
         
 
-        cout << endl;
+        cout << "                                        Your choice: ";
 
         getline(cin, EnteredAnswerMedium[i]);
 
@@ -213,10 +220,10 @@ void SocialRealismTest()
 
     for (int i = 0; i < 4; i++) {
 
-        cout << "||||" << PickedQuestionHard[i] << "||||" << endl;
+        cout << "                    " << PickedQuestionHard[i] << endl;
         
 
-        cout << endl;
+        cout << "                                        Your choice: ";
 
         getline(cin, EnteredAnswerHard[i]);
 
