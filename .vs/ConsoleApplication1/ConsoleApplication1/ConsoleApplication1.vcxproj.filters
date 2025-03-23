@@ -21,7 +21,7 @@
     <ClCompile Include="Modernism.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="testSocialRealism.cpp">
+    <ClCompile Include="SocialRealismTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TestAgeOfEnlightment.cpp">

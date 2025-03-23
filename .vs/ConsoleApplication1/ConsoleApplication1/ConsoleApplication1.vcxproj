@@ -132,7 +132,7 @@
     <ClCompile Include="Modernism.cpp" />
     <ClCompile Include="TestAgeOfEnlightment.cpp" />
     <ClCompile Include="TestMenu.cpp" />
-    <ClCompile Include="testSocialRealism.cpp" />
+    <ClCompile Include="SocialRealismTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
