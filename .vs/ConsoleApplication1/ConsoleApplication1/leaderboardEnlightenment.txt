@@ -1,0 +1,2 @@
+name, grade, score%, finalGrade
+Bojidar, 9B, 20.5882%, 2

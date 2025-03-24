@@ -1,0 +1,4 @@
+name, grade, score%, finalGrade
+Bojidar, 9B, 14.7059%, 2
+Aleks, 9B, 5.88235%, 2
+Bojidar, 9B, 32.3529%, 2

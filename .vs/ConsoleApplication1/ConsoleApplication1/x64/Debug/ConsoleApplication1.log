@@ -1,11 +1,4 @@
-﻿  Modernism.cpp
-C:\Users\misho\Desktop\sprint-eschool-concorde\.vs\ConsoleApplication1\ConsoleApplication1\Modernism.cpp(94,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  SocialRealismTest.cpp
-C:\Users\misho\Desktop\sprint-eschool-concorde\.vs\ConsoleApplication1\ConsoleApplication1\SocialRealismTest.cpp(94,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  TestAgeOfEnlightment.cpp
-C:\Users\misho\Desktop\sprint-eschool-concorde\.vs\ConsoleApplication1\ConsoleApplication1\TestAgeOfEnlightment.cpp(92,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  TestMenu.cpp
-  Generating Code...
-  ConsoleApplication1.vcxproj -> C:\Users\misho\Desktop\sprint-eschool-concorde\.vs\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+﻿  leaderboardRealism.cpp
+  ConsoleApplication1.vcxproj -> D:\C++\sprint-eschool-concorde\.vs\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

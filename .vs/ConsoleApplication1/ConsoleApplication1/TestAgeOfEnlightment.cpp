@@ -4,9 +4,15 @@
 #include <time.h>
 #include <windows.h>
 #include <cstdlib>
+#include <iomanip>
+#include <fstream>
 #include"Enlightenment.h"
+#include"leaderboardEnlightenment.h"
+#include "testmenu.h"
 
 using namespace std;
+
+
 
 void AgeOfenlightenmentTest()
 {
@@ -15,6 +21,15 @@ void AgeOfenlightenmentTest()
 
     // Set the background color to white and text color to dark blue
     SetConsoleTextAttribute(hConsole, BACKGROUND_RED | BACKGROUND_GREEN | BACKGROUND_BLUE | FOREGROUND_BLUE);
+     
+
+    string userName;
+    string userGrade;
+	cout << "                    Enter your name: ";
+    cin.ignore();
+	getline(cin, userName);
+	cout << "                    Enter your grade (9A, 9B, 9V, 9G):  ";
+    cin >> userGrade;
     //questions and their respective answers
     string questionsEasy[20] = {
      "                    What was the Age of Enlightenment?\n                    (a) A religious revival\n                    (b) An intellectual movement emphasizing reason and individualism\n                    (c) A period of war in Europe\n                    (d) A time of artistic decline\n                    ",
@@ -264,7 +279,32 @@ void AgeOfenlightenmentTest()
     }
 
     cout << "Your final grade is: " << FinalGrade << endl;
-    cout << "Your score is: " << GradeEnlightenment << "%" << endl;
+    cout << "Your score is: " << fixed << setprecision(2) << GradeEnlightenment << "%" << endl;
 
 
+    ofstream leaderboard("leaderboardEnlightenment.txt", ios::app);
+    if (leaderboard.is_open()) {
+        leaderboard << userName << ", " << userGrade << ", " << GradeEnlightenment << "%, " << FinalGrade << endl;
+        leaderboard.close();
+    }
+    else {
+        cout << "Error: Unable to open leaderboard file." << endl;
+    }
+    
+
+    char choice;
+    cout << "Enter 'y/Y' if you wish to see the leaderboards for this test, or 'n/N' if you wish to return to the main menu: " << endl;
+	cin >> choice;
+	if (choice == 'y' || choice == 'Y') {
+		leaderboardEnlightenment();
+	}
+	else if (choice == 'n' || choice == 'N') {
+		testmenu();
+	}
+	else {
+		cout << "Invalid input, returning to main menu." << endl;
+		testmenu();
+	}
 }
+
+

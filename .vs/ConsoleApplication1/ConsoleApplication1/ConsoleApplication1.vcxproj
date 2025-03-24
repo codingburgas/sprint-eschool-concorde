@@ -128,6 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Enlightenment.h" />
+    <ClCompile Include="leaderboardEnlightenment.cpp" />
+    <ClCompile Include="leaderboardModernism.cpp" />
+    <ClCompile Include="leaderboardRealism.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Modernism.cpp" />
     <ClCompile Include="TestAgeOfEnlightment.cpp" />
@@ -135,6 +138,9 @@
     <ClCompile Include="SocialRealismTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="leaderboardEnlightenment.h" />
+    <ClInclude Include="leaderboardModernism.h" />
+    <ClInclude Include="leaderboardRealism.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Modernism.h" />
     <ClInclude Include="TestMenu.h" />

@@ -4,8 +4,11 @@
 #include <time.h>
 #include <windows.h>
 #include <cstdlib>
+#include <iomanip>
+#include <fstream>
 #include "testRealism.h"
-
+#include "leaderboardRealism.h"
+#include "testmenu.h"
 using namespace std;
 
 void SocialRealismTest()
@@ -15,6 +18,14 @@ void SocialRealismTest()
 
     // Set the background color to white and text color to dark blue
     SetConsoleTextAttribute(hConsole, BACKGROUND_RED | BACKGROUND_GREEN | BACKGROUND_BLUE | FOREGROUND_BLUE);
+
+    string userName;
+    string userGrade;
+    cout << "                    Enter your name: ";
+    cin.ignore();
+    getline(cin, userName);
+    cout << "                    Enter your grade (9A, 9B, 9V, 9G):  ";
+    cin >> userGrade;
     //questions and their respective answersw
     string questionsEasy[20] = {
     "                    What is social realism?\n                    a) A literary movement depicting social issues.\n                    b) A fantasy genre.\n                    c) A political ideology.\n                    d) A historical period.\n                    ",
@@ -274,7 +285,31 @@ void SocialRealismTest()
     }
 
     cout << "Your final grade is: " << FinalGrade << endl;
-	cout << "Your score is: " << GradeRealism << "%" << endl;
+    cout << "Your score is: " << fixed << setprecision(2) << GradeRealism << "%" << endl;
+
+    ofstream leaderboard("leaderboardRealism.txt", ios::app);
+    if (leaderboard.is_open()) {
+        leaderboard << userName << ", " << userGrade << ", " << GradeRealism << "%, " << FinalGrade << endl;
+        leaderboard.close();
+    }
+    else {
+        cout << "Error: Unable to open leaderboard file." << endl;
+    }
+
+
+    char choice;
+    cout << "Enter 'y/Y' if you wish to see the leaderboards for this test, or 'n/N' if you wish to return to the main menu: " << endl;
+    cin >> choice;
+    if (choice == 'y' || choice == 'Y') {
+        leaderboardRealism();
+    }
+    else if (choice == 'n' || choice == 'N') {
+        testmenu();
+    }
+    else {
+        cout << "Invalid input, returning to main menu." << endl;
+        testmenu();
+    }
 
 
 }
