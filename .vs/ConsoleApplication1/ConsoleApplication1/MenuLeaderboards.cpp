@@ -3,6 +3,7 @@
 #include "leaderboardEnlightenment.h"
 #include "leaderboardModernism.h"
 #include "leaderboardRealism.h"
+#include "main.h"
 
 
 using namespace std;
