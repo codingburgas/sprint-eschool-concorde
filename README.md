@@ -1,7 +1,8 @@
 <h1 align="center" >Concorde</h1>
 <br>
-## Genre
-It School to Test and Grade your knowledge about Bulgarian and Universal Literature.
+
+## 📚 About
+Concorde is a program which is designed to test your skills and knowledge on Literature eras and compete against other users.
 
 ##  Run the game
 <ol>
@@ -15,10 +16,10 @@ It School to Test and Grade your knowledge about Bulgarian and Universal Literat
 - <img src="https://ksmtelecom.co.uk/wp-content/uploads/2021/09/microsoft-teams-logo-png_480-480.png" width="25" height="25"> Microsoft Teams <br>
 - <img src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png" width="25" height="25"> GitHub <br>
 
-## About
- Easy Navigation. <br>
- Success ratings. <br>
- Leaderboards. <br>
+## ✨ Features
+ 📖 Multiple tests to test your knowledge on different eras.  <br>
+ 🔑 Easy navigation so you can access the tests and leaderboards easier.  <br>
+ 👓 Check you results within the leaderboards and see how you've done among other users. <br>
 
 
 ## Team Members
