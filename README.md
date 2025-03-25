@@ -17,7 +17,9 @@ Concorde is a program which is designed to test your skills and knowledge on Lit
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/640px-ISO_C%2B%2B_Logo.svg.png" width="25" height="25"> C++ <br>
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/640px-Visual_Studio_Icon_2022.svg.png" width="25" height="25"> Visual Studio <br>
 - <img src="https://ksmtelecom.co.uk/wp-content/uploads/2021/09/microsoft-teams-logo-png_480-480.png" width="25" height="25"> Microsoft Teams <br>
-- <img src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png" width="25" height="25"> GitHub <br>
+- <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="25" height="25"> GitHub <br>
+- <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg" width="25" height="25"> PowerPoint <br>
+- <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Microsoft_Word_2013-2019_logo.svg" width="25" height="25"> Word <br>
 
 ## ✨ Features
  📖 Multiple tests to test your knowledge on different eras.  <br>
