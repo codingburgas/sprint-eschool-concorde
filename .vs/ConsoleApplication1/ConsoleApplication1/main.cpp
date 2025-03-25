@@ -2,6 +2,7 @@
 #include <iomanip>
 #include "testmenu.h"
 #include "CreditsMenu.h"
+#include "MenuLeaderboards.h"
 using namespace std;
 
 
@@ -37,6 +38,7 @@ int main() {
     cout << "\033[38;2;255;165;100m" << setw(124) << "CHOOSE ONE OF THE FOLLOWING:" << "\033[0m" << endl;
     cout << setw(100) << " " << endl;
     cout << "\033[38;2;255;165;100m" << setw(120) << "1. Head to Test Section" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(120) << "2. Leaderboards" << "\033[0m" << endl;
     cout << "\033[38;2;255;165;100m" << setw(115) << "3. Credits" << "\033[0m" << endl;
     cout << "\033[38;2;255;165;100m" << setw(118) << "4. Exit Program" << "\033[0m" << endl;
     cout << setw(80) << " " << endl;
@@ -50,6 +52,11 @@ int main() {
     if (optionMainMenu == 1) {
         testmenu();
     }
+
+    else if (optionMainMenu == 2) {
+        LeaderboardsMenu();
+    }
+    
     else if (optionMainMenu == 3) {
         CreditsMenu();
     }

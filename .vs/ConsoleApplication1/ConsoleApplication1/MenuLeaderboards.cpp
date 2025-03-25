@@ -1,0 +1,88 @@
+#include <iostream>
+#include <iomanip>
+#include "leaderboardEnlightenment.h"
+#include "leaderboardModernism.h"
+#include "leaderboardRealism.h"
+
+
+using namespace std;
+
+void LeaderboardsMenu() {
+
+    int PickedLeaderboard;
+
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << "\033[94m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+    cout << setw(80) << " " << endl;
+    cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+
+    cout << "\033[38;2;255;165;100m" << setw(145) << " _        _______  _______  ______   _______  _______  ______   _______  _______  _______  ______   _______ " << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(145) << "( \\      (  ____ \\(  ___  )(  __  \\ (  ____ \\(  ____ )(  ___ \\ (  ___  )(  ___  )(  ____ )(  __  \\ (  ____ \\" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(145) << "| (      | (    \\/| (   ) || (  \\  )| (    \\/| (    )|| (   ) )| (   ) || (   ) || (    )|| (  \\  )| (    \\/" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(145) << "| |      | (__    | (___) || |   ) || (__    | (____)|| (__/ / | |   | || (___) || (____)|| |   ) || (_____ " << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(145) << "| |      |  __)   |  ___  || |   | ||  __)   |     __)|  __ (  | |   | ||  ___  ||     __)| |   | |(_____  )" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(145) << "| |      | (      | (   ) || |   ) || (      | (\\ (   | (  \\ \\ | |   | || (   ) || (\\ (   | |   ) |      ) |" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(146) << "| (____/\\| (____/\\| )   ( || (__/  )| (____/\\| ) \\ \\__| )___) )| (___) || )   ( || ) \\ \\__| (__/  )/\\____) |" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(146) << "(_______/(_______/|/     \\|(______/ (_______/|/   \\__/|/ \\___/ (_______)|/     \\||/   \\__/(______/ \\_______)" << "\033[0m" << endl;
+
+    cout << setw(80) << " " << endl;
+    cout << setw(100) << " " << endl;
+
+    cout << "\033[38;2;255;165;100m" << setw(120) << "Pick one of the following leaderboards: " << "\033[0m" << endl;
+    cout << setw(100) << " " << endl;
+
+    cout << "\033[38;2;255;165;100m" << setw(120) << "1. Leaderboard for Enlightment" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(120) << "2. Leaderboard for Modernism" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(115) << "3. Leaderboard for Social Realism" << "\033[0m" << endl;
+
+    cout << setw(80) << " " << endl;
+    cout << setw(100) << " " << endl;
+   
+    cout << "\033[38;2;255;165;100m" << setw(115) << "4. Go back to main menu" << "\033[0m" << endl;
+
+    cout << setw(80) << " " << endl;
+    cout << setw(100) << " " << endl;
+    cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+    cout << setw(100) << " " << endl;
+    cout << "\033[94m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+    cout << setw(117) << "Your choice: ";
+
+    cin >> PickedLeaderboard;
+
+
+
+    if (PickedLeaderboard == 1) {
+
+        leaderboardEnlightenment();
+
+    }
+    else if (PickedLeaderboard == 2) {
+
+        leaderboardModernism();
+
+    }
+
+    else if (PickedLeaderboard == 3) {
+
+        leaderboardRealism();
+
+    }
+
+    else if (PickedLeaderboard == 4) {
+
+        main();
+
+    }
+
+
+
+}
