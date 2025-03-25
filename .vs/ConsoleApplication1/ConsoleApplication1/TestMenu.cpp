@@ -68,5 +68,6 @@ void testmenu() {
     else {
         system("CLS");
         cout << "Invalid input, try again!" << endl;
+		testmenu();
     }
 }

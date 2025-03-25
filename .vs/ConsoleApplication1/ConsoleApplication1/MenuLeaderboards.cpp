@@ -39,17 +39,17 @@ void LeaderboardsMenu() {
     cout << setw(80) << " " << endl;
     cout << setw(100) << " " << endl;
 
-    cout << "\033[38;2;255;165;100m" << setw(120) << "Pick one of the following leaderboards: " << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(125) << "Pick one of the following leaderboards: " << "\033[0m" << endl;
     cout << setw(100) << " " << endl;
 
-    cout << "\033[38;2;255;165;100m" << setw(120) << "1. Leaderboard for Enlightment" << "\033[0m" << endl;
-    cout << "\033[38;2;255;165;100m" << setw(120) << "2. Leaderboard for Modernism" << "\033[0m" << endl;
-    cout << "\033[38;2;255;165;100m" << setw(115) << "3. Leaderboard for Social Realism" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(122) << "1. Leaderboard for Enlightment" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(122) << "2. Leaderboard for Modernism" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(122) << "3. Leaderboard for Social Realism" << "\033[0m" << endl;
 
     cout << setw(80) << " " << endl;
     cout << setw(100) << " " << endl;
    
-    cout << "\033[38;2;255;165;100m" << setw(115) << "4. Go back to main menu" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(117) << "4. Go back to main menu" << "\033[0m" << endl;
 
     cout << setw(80) << " " << endl;
     cout << setw(100) << " " << endl;
@@ -84,6 +84,11 @@ void LeaderboardsMenu() {
         main();
 
     }
+	else {
+		system("CLS");
+		cout << "Invalid input, try again!" << endl;
+		LeaderboardsMenu();
+	}
 
 
 

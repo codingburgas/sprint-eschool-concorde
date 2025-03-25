@@ -350,7 +350,7 @@ void SocialRealismTest()
     }
 
     cout << setw(116) << "Your final grade is: " << FinalGrade << endl;
-    cout << setw(120) << "Your score is: " << fixed << setprecision(2) << GradeRealism << "%" << endl;
+    cout << setw(110) << "Your score is: " << fixed << setprecision(2) << GradeRealism << "%" << endl;
 
     ofstream leaderboard("leaderboardRealism.txt", ios::app);
     if (leaderboard.is_open()) {
@@ -363,7 +363,7 @@ void SocialRealismTest()
 
 
     char choice;
-    cout << "                            Enter 'y/Y' if you wish to see the leaderboards for this test, or 'n/N' if you wish to return to the main menu: " << endl;
+    cout << "                                             Enter 'y/Y' if you wish to see the leaderboards for this test, or 'n/N' if you wish to return to the main menu: " << endl;
     cin >> choice;
     cout << setw(80) << " " << endl;
     cout << setw(100) << " " << endl;
