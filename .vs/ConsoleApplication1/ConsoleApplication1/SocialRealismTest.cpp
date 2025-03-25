@@ -13,12 +13,6 @@ using namespace std;
 
 void SocialRealismTest()
 {
-    // Get the console handle
-    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-
-    // Set the background color to white and text color to dark blue
-    SetConsoleTextAttribute(hConsole, BACKGROUND_RED | BACKGROUND_GREEN | BACKGROUND_BLUE | FOREGROUND_BLUE);
-
     string userName;
     string userGrade;
     cout << "                    Enter your name: ";
@@ -28,62 +22,62 @@ void SocialRealismTest()
     cin >> userGrade;
     //questions and their respective answersw
     string questionsEasy[20] = {
-    "                    What is social realism?\n                    a) A literary movement depicting social issues.\n                    b) A fantasy genre.\n                    c) A political ideology.\n                    d) A historical period.\n                    ",
-    "                    In which century did social realism emerge?\n                    a) 18th century.\n                    b) 19th century.\n                    c) 20th century.\n                    d) 21st century.\n                    ",
-    "                    Who is the author of Father Goriot?\n                    a) Victor Hugo.\n                    b) Honore de Balzac.\n                    c) Gustave Flaubert.\n                    d) Emile Zola.\n                    ",
-    "                    Who is the author of Madame Bovary?\n                    a) Emile Zola.\n                    b) Honore de Balzac.\n                    c) Gustave Flaubert.\n                    d) Victor Hugo.\n                    ",
-    "                    In which country does Father Goriot take place?\n                    a) Germany.\n                    b) Italy.\n                    c) France.\n                    d) England.\n                    ",
-    "                    In which country does Madame Bovary take place?\n                    a) France.\n                    b) Spain.\n                    c) Italy.\n                    d) Russia.\n                    ",
-    "                    What is the name of the young student in Father Goriot?\na) Lucien de Rubempre.\n                    b) Eugene de Rastignac.\n                    c) Charles Bovary.\n                    d) Vautrin.\n                    ",
-    "                    What is the name of Emma Bovary's husband?\n                    a) Eugene.\n                    b) Charles.\n                    c) Leon.\n                    d) Rodolphe.\n                    ",
-    "                    What is the main theme of Father Goriot?\n                    a) Money and society.\n                    b) Love and betrayal.\n                    c) Adventure and heroism.\n                    d) Political conflict.\n                    ",
-    "                    What is the main theme of Madame Bovary?\n                    a) Friendship.\n                    b) Illusions and reality.\n                    c) War and peace.\n                    d) Science and progress.\n                    ",
-    "                    What does Madame Vauquer’s boarding house symbolize?\n                    a) Love and passion.\n                    b) Social hierarchy.\n                    c) Education.\n                    d) Political power.\n                    ",
-    "                    What leads to Emma Bovary’s downfall?\n                    a) Her love for Charles.\n                    b) Debt and affairs.\n                    c) A tragic accident.\n                    d) Her devotion to family.\n                    ",
-    "                    What was Father Goriot’s social status at the beginning of the novel?\n                    a) Wealthy merchant.\n                    b) Poor beggar.\n                    c) Noble aristocrat.\n                    d) Government official.\n                    ",
-    "                    What genre is Madame Bovary?\n                    a) Fantasy.\n                    b) Science fiction.\n                    c) Realist novel.\n                    d) Gothic horror.\n                    ",
-    "                    What genre is Father Goriot?\n                    a) Romantic novel.\n                    b) Realist novel.\n                    c) Epic poem.\n                    d) Satire.\n                    ",
-    "                    Which literary movement came before social realism?\n                    a) Modernism.\n                    b) Romanticism.\n                    c) Symbolism.\n                    d) Surrealism.\n                    ",
-    "                    What is the nature of Vautrin in Father Goriot?\n                    a) Innocent scholar.\n                    b) Criminal mastermind.\n                    c) Wealthy businessman.\n                    d) Religious leader.\n                    ",
-    "                    What is the name of the town where the Bovarys live?\n                    a) Rouen.\n                    b) Yonville.\n                    c) Paris.\n                    d) Marseille.\n                    ",
-    "                    What is Charles Bovary's profession?\n                    a) Doctor.\n                    b) Lawyer.\n                    c) Banker.\n                    d) Professor.\n                    ",
-    "                    What happens to Father Goriot’s daughters?\n                    a) They become famous.\n                    b) They abandon him.\n                    c) They care for him.\n                    d) They move abroad.\n                    "
+    string(84, ' ') + "What is social realism?\n" + string(84, ' ') + "a) A literary movement depicting social issues.\n" + string(84, ' ') + "b) A fantasy genre.\n" + string(84, ' ') + "c) A political ideology.\n" + string(84, ' ') + "d) A historical period.",
+    string(84, ' ') + "In which century did social realism emerge?\n" + string(84, ' ') + "a) 18th century.\n" + string(84, ' ') + "b) 19th century.\n" + string(84, ' ') + "c) 20th century.\n" + string(84, ' ') + "d) 21st century.",
+    string(84, ' ') + "Who is the author of Father Goriot?\n" + string(84, ' ') + "a) Victor Hugo.\n" + string(84, ' ') + "b) Honore de Balzac.\n" + string(84, ' ') + "c) Gustave Flaubert.\n" + string(84, ' ') + "d) Emile Zola.",
+    string(84, ' ') + "Who is the author of Madame Bovary?\n" + string(84, ' ') + "a) Emile Zola.\n" + string(84, ' ') + "b) Honore de Balzac.\n" + string(84, ' ') + "c) Gustave Flaubert.\n" + string(84, ' ') + "d) Victor Hugo.",
+    string(84, ' ') + "In which country does Father Goriot take place?\n" + string(84, ' ') + "a) Germany.\n" + string(84, ' ') + "b) Italy.\n" + string(84, ' ') + "c) France.\n" + string(84, ' ') + "d) England.",
+    string(84, ' ') + "In which country does Madame Bovary take place?\n" + string(84, ' ') + "a) France.\n" + string(84, ' ') + "b) Spain.\n" + string(84, ' ') + "c) Italy.\n" + string(84, ' ') + "d) Russia.",
+    string(84, ' ') + "What is the name of the young student in Father Goriot?\n" + string(84, ' ') + "a) Lucien de Rubempre.\n" + string(84, ' ') + "b) Eugene de Rastignac.\n" + string(84, ' ') + "c) Charles Bovary.\n" + string(84, ' ') + "d) Vautrin.",
+    string(84, ' ') + "What is the name of Emma Bovary's husband?\n" + string(84, ' ') + "a) Eugene.\n" + string(84, ' ') + "b) Charles.\n" + string(84, ' ') + "c) Leon.\n" + string(84, ' ') + "d) Rodolphe.",
+    string(84, ' ') + "What is the main theme of Father Goriot?\n" + string(84, ' ') + "a) Money and society.\n" + string(84, ' ') + "b) Love and betrayal.\n" + string(84, ' ') + "c) Adventure and heroism.\n" + string(84, ' ') + "d) Political conflict.",
+    string(84, ' ') + "What is the main theme of Madame Bovary?\n" + string(84, ' ') + "a) Friendship.\n" + string(84, ' ') + "b) Illusions and reality.\n" + string(84, ' ') + "c) War and peace.\n" + string(84, ' ') + "d) Science and progress.",
+    string(84, ' ') + "What does Madame Vauquer’s boarding house symbolize?\n" + string(84, ' ') + "a) Love and passion.\n" + string(84, ' ') + "b) Social hierarchy.\n" + string(84, ' ') + "c) Education.\n" + string(84, ' ') + "d) Political power.",
+    string(84, ' ') + "What leads to Emma Bovary’s downfall?\n" + string(84, ' ') + "a) Her love for Charles.\n" + string(84, ' ') + "b) Debt and affairs.\n" + string(84, ' ') + "c) A tragic accident.\n" + string(84, ' ') + "d) Her devotion to family.",
+    string(84, ' ') + "What was Father Goriot’s social status at the beginning of the novel?\n" + string(84, ' ') + "a) Wealthy merchant.\n" + string(84, ' ') + "b) Poor beggar.\n" + string(84, ' ') + "c) Noble aristocrat.\n" + string(84, ' ') + "d) Government official.",
+    string(84, ' ') + "What genre is Madame Bovary?\n" + string(84, ' ') + "a) Fantasy.\n" + string(84, ' ') + "b) Science fiction.\n" + string(84, ' ') + "c) Realist novel.\n" + string(84, ' ') + "d) Gothic horror.",
+    string(84, ' ') + "What genre is Father Goriot?\n" + string(84, ' ') + "a) Romantic novel.\n" + string(84, ' ') + "b) Realist novel.\n" + string(84, ' ') + "c) Epic poem.\n" + string(84, ' ') + "d) Satire.",
+    string(84, ' ') + "Which literary movement came before social realism?\n" + string(84, ' ') + "a) Modernism.\n" + string(84, ' ') + "b) Romanticism.\n" + string(84, ' ') + "c) Symbolism.\n" + string(84, ' ') + "d) Surrealism.",
+    string(84, ' ') + "What is the nature of Vautrin in Father Goriot?\n" + string(84, ' ') + "a) Innocent scholar.\n" + string(84, ' ') + "b) Criminal mastermind.\n" + string(84, ' ') + "c) Wealthy businessman.\n" + string(84, ' ') + "d) Religious leader.",
+    string(84, ' ') + "What is the name of the town where the Bovarys live?\n" + string(84, ' ') + "a) Rouen.\n" + string(84, ' ') + "b) Yonville.\n" + string(84, ' ') + "c) Paris.\n" + string(84, ' ') + "d) Marseille.",
+    string(84, ' ') + "What is Charles Bovary's profession?\n" + string(84, ' ') + "a) Doctor.\n" + string(84, ' ') + "b) Lawyer.\n" + string(84, ' ') + "c) Banker.\n" + string(84, ' ') + "d) Professor.",
+    string(84, ' ') + "What happens to Father Goriot’s daughters?\n" + string(84, ' ') + "a) They become famous.\n" + string(84, ' ') + "b) They abandon him.\n" + string(84, ' ') + "c) They care for him.\n" + string(84, ' ') + "d) They move abroad."
     };
 
     string questionsMedium[20] = {
-     "                    What genre is Father Goriot?\n                    a) Romantic novel.\n                    b) Realist novel.\n                    c) Epic poem.\n                    d) Satire.\n                    ",
-     "                    What genre is Madame Bovary?\n                    a) Fantasy.\n                    b) Science fiction.\n                    c) Realist novel.\n                    d) Gothic horror.\n                    ",
-     "                    What is the main theme of Father Goriot?\n                    a) Money and society.\n                    b) Love and betrayal.\n                    c) Adventure and heroism.\n                    d) Political conflict.\n                    ",
-     "                    What is the main theme of Madame Bovary?\n                    a) Friendship.\n                    b) Illusions and reality.\n                    c) War and peace.\n                    d) Science and progress.\n                    ",
-     "                    What is Rastignac’s social status at the beginning?\n                    a) Poor student.\n                    b) Wealthy aristocrat.\n                    c) Middle-class merchant.\n                    d) Government official.\n                    ",
-     "                    How did Father Goriot make his fortune?\n                    a) Through trade.\n                    b) Inheritance.\n                    c) Gambling.\n                    d) Banking.\n                    ",
-     "                    What happens to Father Goriot’s daughters?\n                    a) They reject him.\n                    b) They care for him.\n                    c) They inherit his wealth.\n                    d) They move abroad.\n                    ",
-     "                    Which character in Father Goriot is a criminal?\n                    a) Vautrin.\n                    b) Rastignac.\n                    c) Goriot.\n                    d) Madame Vauquer.\n                    ",
-     "                    What is Emma Bovary’s husband’s profession?\n                    a) Doctor.\n                    b) Lawyer.\n                    c) Banker.\n                    d) Professor.\n                    ",
-     "                    How does Emma Bovary die?\n                    a) Poisoning herself.\n                    b) Illness.\n                    c) Drowning.\n                    d) Murder.\n                    ",
-     "                    What does Rastignac dream of achieving?\n                    a) Wealth and success.\n                    b) Love and happiness.\n                    c) Political power.\n                    d) Artistic fame.\n                    ",
-     "                    What is Emma Bovary’s main flaw?\n                    a) Naivety.\n                    b) Wisdom.\n                    c) Honesty.\n                    d) Strength.\n                    ",
-     "                    Who wrote The Human Comedy?\n                    a) Balzac.\n                    b) Flaubert.\n                    c) Zola.\n                    d) Hugo.\n                    ",
-     "                    In which century did Balzac live?\n                    a) 19th century.\n                    b) 18th century.\n                    c) 20th century.\n                    d) 21st century.\n                    ",
-     "                    In which century did Flaubert live?\n                    a) 19th century.\n                    b) 18th century.\n                    c) 20th century.\n                    d) 21st century.\n                    ",
-     "                    How does Flaubert present reality?\n                    a) Objectively.\n                    b) Subjectively.\n                    c) Idealistically.\n                    d) Romantically.\n                    ",
-     "                    What literary technique does Balzac use?\na) Detailed description.\n                    b) Symbolism.\n                    c) Allegory.\n                    d) Stream of consciousness.\n                    ",
-     "                    What is Emma Bovary’s marriage like?\na) Unhappy.\n                    b) Passionate.\n                    c) Violent.\n                    d) Joyful.\n                    ",
-     "                    How does Father Goriot end?\n                    a) Goriot dies poor.\n                    b) Goriot becomes rich.\n                    c) Goriot moves abroad.\n                    d) Goriot is arrested.\n                    ",
-     "                    What does Rastignac say at the end of the novel?\n                    a) 'It’s between us now, Paris and me!'\n                    b) 'I regret nothing.'\n                    c) 'I have failed.'\n                    d) 'We must change the world!'\n                    "
+     string(84, ' ') + "What genre is Father Goriot?\n" + string(84, ' ') + "a) Romantic novel.\n" + string(84, ' ') + "b) Realist novel.\n" + string(84, ' ') + "c) Epic poem.\n" + string(84, ' ') + "d) Satire.",
+     string(84, ' ') + "What genre is Madame Bovary?\n" + string(84, ' ') + "a) Fantasy.\n" + string(84, ' ') + "b) Science fiction.\n" + string(84, ' ') + "c) Realist novel.\n" + string(84, ' ') + "d) Gothic horror.",
+     string(84, ' ') + "What is the main theme of Father Goriot?\n" + string(84, ' ') + "a) Money and society.\n" + string(84, ' ') + "b) Love and betrayal.\n" + string(84, ' ') + "c) Adventure and heroism.\n" + string(84, ' ') + "d) Political conflict.",
+     string(84, ' ') + "What is the main theme of Madame Bovary?\n" + string(84, ' ') + "a) Friendship.\n" + string(84, ' ') + "b) Illusions and reality.\n" + string(84, ' ') + "c) War and peace.\n" + string(84, ' ') + "d) Science and progress.",
+     string(84, ' ') + "What is Rastignac’s social status at the beginning?\n" + string(84, ' ') + "a) Poor student.\n" + string(84, ' ') + "b) Wealthy aristocrat.\n" + string(84, ' ') + "c) Middle-class merchant.\n" + string(84, ' ') + "d) Government official.",
+     string(84, ' ') + "How did Father Goriot make his fortune?\n" + string(84, ' ') + "a) Through trade.\n" + string(84, ' ') + "b) Inheritance.\n" + string(84, ' ') + "c) Gambling.\n" + string(84, ' ') + "d) Banking.",
+     string(84, ' ') + "What happens to Father Goriot’s daughters?\n" + string(84, ' ') + "a) They reject him.\n" + string(84, ' ') + "b) They care for him.\n" + string(84, ' ') + "c) They inherit his wealth.\n" + string(84, ' ') + "d) They move abroad.",
+     string(84, ' ') + "Which character in Father Goriot is a criminal?\n" + string(84, ' ') + "a) Vautrin.\n" + string(84, ' ') + "b) Rastignac.\n" + string(84, ' ') + "c) Goriot.\n" + string(84, ' ') + "d) Madame Vauquer.",
+     string(84, ' ') + "What is Emma Bovary’s husband’s profession?\n" + string(84, ' ') + "a) Doctor.\n" + string(84, ' ') + "b) Lawyer.\n" + string(84, ' ') + "c) Banker.\n" + string(84, ' ') + "d) Professor.",
+     string(84, ' ') + "How does Emma Bovary die?\n" + string(84, ' ') + "a) Poisoning herself.\n" + string(84, ' ') + "b) Illness.\n" + string(84, ' ') + "c) Drowning.\n" + string(84, ' ') + "d) Murder.",
+     string(84, ' ') + "What does Rastignac dream of achieving?\n" + string(84, ' ') + "a) Wealth and success.\n" + string(84, ' ') + "b) Love and happiness.\n" + string(84, ' ') + "c) Political power.\n" + string(84, ' ') + "d) Artistic fame.",
+     string(84, ' ') + "What is Emma Bovary’s main flaw?\n" + string(84, ' ') + "a) Naivety.\n" + string(84, ' ') + "b) Wisdom.\n" + string(84, ' ') + "c) Honesty.\n" + string(84, ' ') + "d) Strength.",
+     string(84, ' ') + "Who wrote The Human Comedy?\n" + string(84, ' ') + "a) Balzac.\n" + string(84, ' ') + "b) Flaubert.\n" + string(84, ' ') + "c) Zola.\n" + string(84, ' ') + "d) Hugo.",
+     string(84, ' ') + "In which century did Balzac live?\n" + string(84, ' ') + "a) 19th century.\n" + string(84, ' ') + "b) 18th century.\n" + string(84, ' ') + "c) 20th century.\n" + string(84, ' ') + "d) 21st century.",
+     string(84, ' ') + "In which century did Flaubert live?\n" + string(84, ' ') + "a) 19th century.\n" + string(84, ' ') + "b) 18th century.\n" + string(84, ' ') + "c) 20th century.\n" + string(84, ' ') + "d) 21st century.",
+     string(84, ' ') + "How does Flaubert present reality?\n" + string(84, ' ') + "a) Objectively.\n" + string(84, ' ') + "b) Subjectively.\n" + string(84, ' ') + "c) Idealistically.\n" + string(84, ' ') + "d) Romantically.",
+     string(84, ' ') + "What literary technique does Balzac use?\n" + string(84, ' ') + "a) Detailed description.\n" + string(84, ' ') + "b) Symbolism.\n" + string(84, ' ') + "c) Allegory.\n" + string(84, ' ') + "d) Stream of consciousness.",
+     string(84, ' ') + "What is Emma Bovary’s marriage like?\n" + string(84, ' ') + "a) Unhappy.\n" + string(84, ' ') + "b) Passionate.\n" + string(84, ' ') + "c) Violent.\n" + string(84, ' ') + "d) Joyful.",
+     string(84, ' ') + "How does Father Goriot end?\n" + string(84, ' ') + "a) Goriot dies poor.\n" + string(84, ' ') + "b) Goriot becomes rich.\n" + string(84, ' ') + "c) Goriot moves abroad.\n" + string(84, ' ') + "d) Goriot is arrested.",
+     string(84, ' ') + "What does Rastignac say at the end of the novel?\n" + string(84, ' ') + "a) 'It’s between us now, Paris and me!'\n" + string(84, ' ') + "b) 'I regret nothing.'\n" + string(84, ' ') + "c) 'I have failed.'\n" + string(84, ' ') + "d) 'We must change the world!'"
     };
 
     string questionsHard[10] = {
-     "                    Which literary movement came before social realism?\n                    a) Modernism.\n                    b) Romanticism.\n                    c) Symbolism.\n                    d) Surrealism.",
-     "                    What main issue does Balzac reveal?\n                    a) The power of money.\n                    b) The struggles of war.\n                    c) The importance of family.\n                    d) The decline of nobility.",
-     "                    What main issue does Flaubert reveal?\n                    a) Political corruption.\n                    b) Illusory dreams.\n                    c) The brutality of war.\n                    d) The rise of democracy.",
-     "                    What does Madame Vauquer’s boarding house symbolize?\n                    a) Social hierarchy.\n                    b) Economic prosperity.\n                    c) Political corruption.\n                    d) Religious devotion.",
-     "                    Which character in Father Goriot represents the criminal world?\n                    a) Vautrin.\n                    b) Rastignac.\n                    c) Madame Vauquer.\n                    d) Goriot.",
-     "                    What literary method does Flaubert use?\n                    a) Objectivity.\n                    b) Sentimentalism.\n                    c) Allegory.\n                    d) Romantic idealism.",
-     "                    What is Emma Bovary’s goal?\n                    a) To live like in a novel.\n                    b) To become a doctor.\n                    c) To rule a kingdom.\n                    d) To be a great writer.",
-     "                    What happens to Emma Bovary’s husband?\n                    a) He dies of grief.\n                    b) He remarries.\n                    c) He moves away.\n                    d) He becomes wealthy.",
-     "                    What does Madame Bovary criticize?\n                    a) Bourgeois values.\n                    b) Religious institutions.\n                    c) Political systems.\n                    d) Scientific advancements.",
-     "                    What style does Balzac use?\n                    a) Realism.\n                    b) Romanticism.\n                    c) Naturalism.\n                    d) Symbolism."
+    string(84, ' ') + "Which literary movement came before social realism?\n" + string(84, ' ') + "a) Modernism.\n" + string(84, ' ') + "b) Romanticism.\n" + string(84, ' ') + "c) Symbolism.\n" + string(84, ' ') + "d) Surrealism.",
+    string(84, ' ') + "What main issue does Balzac reveal?\n" + string(84, ' ') + "a) The power of money.\n" + string(84, ' ') + "b) The struggles of war.\n" + string(84, ' ') + "c) The importance of family.\n" + string(84, ' ') + "d) The decline of nobility.",
+    string(84, ' ') + "What main issue does Flaubert reveal?\n" + string(84, ' ') + "a) Political corruption.\n" + string(84, ' ') + "b) Illusory dreams.\n" + string(84, ' ') + "c) The brutality of war.\n" + string(84, ' ') + "d) The rise of democracy.",
+    string(84, ' ') + "What does Madame Vauquer’s boarding house symbolize?\n" + string(84, ' ') + "a) Social hierarchy.\n" + string(84, ' ') + "b) Economic prosperity.\n" + string(84, ' ') + "c) Political corruption.\n" + string(84, ' ') + "d) Religious devotion.",
+    string(84, ' ') + "Which character in Father Goriot represents the criminal world?\n" + string(84, ' ') + "a) Vautrin.\n" + string(84, ' ') + "b) Rastignac.\n" + string(84, ' ') + "c) Madame Vauquer.\n" + string(84, ' ') + "d) Goriot.",
+    string(84, ' ') + "What literary method does Flaubert use?\n" + string(84, ' ') + "a) Objectivity.\n" + string(84, ' ') + "b) Sentimentalism.\n" + string(84, ' ') + "c) Allegory.\n" + string(84, ' ') + "d) Romantic idealism.",
+    string(84, ' ') + "What is Emma Bovary’s goal?\n" + string(84, ' ') + "a) To live like in a novel.\n" + string(84, ' ') + "b) To become a doctor.\n" + string(84, ' ') + "c) To rule a kingdom.\n" + string(84, ' ') + "d) To be a great writer.",
+    string(84, ' ') + "What happens to Emma Bovary’s husband?\n" + string(84, ' ') + "a) He dies of grief.\n" + string(84, ' ') + "b) He remarries.\n" + string(84, ' ') + "c) He moves away.\n" + string(84, ' ') + "d) He becomes wealthy.",
+    string(84, ' ') + "What does Madame Bovary criticize?\n" + string(84, ' ') + "a) Bourgeois values.\n" + string(84, ' ') + "b) Religious institutions.\n" + string(84, ' ') + "c) Political systems.\n" + string(84, ' ') + "d) Scientific advancements.",
+    string(84, ' ') + "What style does Balzac use?\n" + string(84, ' ') + "a) Realism.\n" + string(84, ' ') + "b) Romanticism.\n" + string(84, ' ') + "c) Naturalism.\n" + string(84, ' ') + "d) Symbolism."
     };
 
     string answersEasy[20] = {
@@ -100,6 +94,9 @@ void SocialRealismTest()
     string answersHard[10] = {
     "b", "a", "b", "a", "a", "a", "a", "a", "a", "a"
     };
+
+    string colorBlue = "\033[94m";
+    string colorBlueEnd = "\033[0m";
 
 
     srand(time(0)); //sets the seed for random number generator
@@ -190,12 +187,29 @@ void SocialRealismTest()
 
     for (int i = 0; i < 10; i++) {
 
-        cout << "                    " << PickedQuestionEasy[i] << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << "\033[94m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+        cout << setw(80) << " " << endl;
+        cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+
+        cout << colorBlue + PickedQuestionEasy[i] + colorBlueEnd << endl;
+
+        cout << setw(80) << " " << endl;
+        cout << setw(100) << " " << endl;
+        cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+        cout << setw(100) << " " << endl;
+        cout << "\033[94m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+        cout << setw(117) << "Your choice: ";
         
-
-
-        cout << "                                        Your choice: ";
-
         getline(cin, EnteredAnswerEasy[i]);
 
         if (EnteredAnswerEasy[i] == PickedEasyAnswers[i]) {
@@ -211,11 +225,28 @@ void SocialRealismTest()
 
     for (int i = 0; i < 6; i++) {
 
-        cout << "                    " << PickedQuestionMedium[i] << endl;
-        
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << "\033[94m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+        cout << setw(80) << " " << endl;
+        cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
 
-        cout << "                                        Your choice: ";
+        cout << colorBlue + PickedQuestionMedium[i] + colorBlueEnd << endl;
 
+        cout << setw(80) << " " << endl;
+        cout << setw(100) << " " << endl;
+        cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+        cout << setw(100) << " " << endl;
+        cout << "\033[94m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+        cout << setw(117) << "Your choice: ";
         getline(cin, EnteredAnswerMedium[i]);
 
         if (EnteredAnswerMedium[i] == PickedMediumAnswers[i]) {
@@ -231,11 +262,28 @@ void SocialRealismTest()
 
     for (int i = 0; i < 4; i++) {
 
-        cout << "                    " << PickedQuestionHard[i] << endl;
-        
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
+        cout << "\033[94m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+        cout << setw(80) << " " << endl;
+        cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+        cout << setw(80) << " " << endl;
+        cout << setw(80) << " " << endl;
 
-        cout << "                                        Your choice: ";
+        cout << colorBlue + PickedQuestionHard[i] + colorBlueEnd << endl;
 
+        cout << setw(80) << " " << endl;
+        cout << setw(100) << " " << endl;
+        cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+        cout << setw(100) << " " << endl;
+        cout << "\033[94m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+        cout << setw(117) << "Your choice: ";
         getline(cin, EnteredAnswerHard[i]);
 
 
@@ -250,6 +298,12 @@ void SocialRealismTest()
         system("cls");
 
     }
+
+    cout << setw(80) << " " << endl;
+    cout << setw(100) << " " << endl;
+    cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+    cout << setw(100) << " " << endl;
+    cout << "\033[94m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
 
     float GradeRealism = (OverallRealism / 34) * 100;
 
@@ -284,8 +338,8 @@ void SocialRealismTest()
 
     }
 
-    cout << "Your final grade is: " << FinalGrade << endl;
-    cout << "Your score is: " << fixed << setprecision(2) << GradeRealism << "%" << endl;
+    cout << setw(116) << "Your final grade is: " << FinalGrade << endl;
+    cout << setw(120) << "Your score is: " << fixed << setprecision(2) << GradeRealism << "%" << endl;
 
     ofstream leaderboard("leaderboardRealism.txt", ios::app);
     if (leaderboard.is_open()) {
@@ -293,13 +347,18 @@ void SocialRealismTest()
         leaderboard.close();
     }
     else {
-        cout << "Error: Unable to open leaderboard file." << endl;
+        cout << setw(120) << "Error: Unable to open leaderboard file." << endl;
     }
 
 
     char choice;
-    cout << "Enter 'y/Y' if you wish to see the leaderboards for this test, or 'n/N' if you wish to return to the main menu: " << endl;
+    cout << "                            Enter 'y/Y' if you wish to see the leaderboards for this test, or 'n/N' if you wish to return to the main menu: " << endl;
     cin >> choice;
+    cout << setw(80) << " " << endl;
+    cout << setw(100) << " " << endl;
+    cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+    cout << setw(100) << " " << endl;
+    cout << "\033[94m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
     if (choice == 'y' || choice == 'Y') {
         leaderboardRealism();
     }
@@ -307,7 +366,7 @@ void SocialRealismTest()
         testmenu();
     }
     else {
-        cout << "Invalid input, returning to main menu." << endl;
+        cout << setw(120) << "Invalid input, returning to main menu." << endl;
         testmenu();
     }
 

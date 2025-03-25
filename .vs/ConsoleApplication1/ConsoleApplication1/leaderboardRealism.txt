@@ -2,3 +2,4 @@ name, grade, score%, finalGrade
 Bojidar, 9B, 76.4706%, 4
 Bojidar, 9V, 58.8235%, 3
 Primer, 9G, 64.7059%, 3
+misho, 9G, 58.8235%, 3
