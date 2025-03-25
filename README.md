@@ -1,7 +1,7 @@
 <h1 align="center" >Concorde</h1>
 <br>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b21df8af-26e0-401e-8db0-fa8d70d79813" alt="Concorde Logo" width="500" height="300">
+  <img src="https://github.com/user-attachments/assets/b21df8af-26e0-401e-8db0-fa8d70d79813" alt="Concorde Logo" width="410" height="300">
 </p>
 
 
@@ -10,6 +10,8 @@ Concorde is a program which is designed to test your skills and knowledge on Lit
 ##  Run the game
 <ol>
     <li><h2> Download The latest Version</h2> </li>
+      <pre>git clone https://github.com/codingburgas/sprint-eschool-concorde.git</pre>
+
 </ol>
 
 ## Used Technologies
