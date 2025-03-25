@@ -1,2 +1,3 @@
 name, grade, score%, finalGrade
 Bojidar, 9B, 20.5882%, 2
+Bojidar, 9B, 32.3529%, 2
