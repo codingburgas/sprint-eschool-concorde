@@ -133,6 +133,7 @@
     <ClCompile Include="leaderboardModernism.cpp" />
     <ClCompile Include="leaderboardRealism.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuLeaderboards.cpp" />
     <ClCompile Include="Modernism.cpp" />
     <ClCompile Include="TestAgeOfEnlightment.cpp" />
     <ClCompile Include="TestMenu.cpp" />
@@ -144,6 +145,7 @@
     <ClInclude Include="leaderboardModernism.h" />
     <ClInclude Include="leaderboardRealism.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="MenuLeaderboards.h" />
     <ClInclude Include="Modernism.h" />
     <ClInclude Include="TestMenu.h" />
     <ClInclude Include="testRealism.h" />
