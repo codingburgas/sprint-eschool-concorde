@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CreditsMenu.cpp" />
     <ClCompile Include="Enlightenment.h" />
     <ClCompile Include="leaderboardEnlightenment.cpp" />
     <ClCompile Include="leaderboardModernism.cpp" />
@@ -138,6 +139,7 @@
     <ClCompile Include="SocialRealismTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CreditsMenu.h" />
     <ClInclude Include="leaderboardEnlightenment.h" />
     <ClInclude Include="leaderboardModernism.h" />
     <ClInclude Include="leaderboardRealism.h" />

@@ -42,6 +42,9 @@
     <ClCompile Include="leaderboardRealism.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CreditsMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Modernism.h">
@@ -63,6 +66,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="leaderboardRealism.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditsMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
