@@ -71,15 +71,15 @@ void leaderboardModernism() {
         cout << setw(65) << name << "\t\t" << setw(20) <<  grade << "\t" << setw(20) << score << "%\t\t" << setw(20) << finalGrade << endl;
     }
     cout << "" << endl;
-    cout << setw(143) << "Enter 1 to return to the test menu or 2 to return to the leaderboard menu. ";
+    cout << setw(143) << "Enter 1 to return to the leaderboard menu or 2 to return to the main menu. ";
     int choice;
     cin >> choice;
 
     if (choice == 1) {
-        testmenu();
+        LeaderboardsMenu();
     }
     else if (choice == 2) {
-        LeaderboardsMenu();
+        testmenu();
     }
     else {
 		system("CLS");

@@ -30,14 +30,18 @@ void SocialRealismTest()
     cout << setw(80) << "" << endl;
     cout << setw(80) << "" << endl;
     cout << setw(80) << "" << endl;
-
-    cout << setw(160) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------\033[0m" << endl;
-    cout << setw(160) << "\033[38;5;180m                      Welcome to the Social Realism test!                      \033[0m" << endl;
-    cout << setw(160) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------\033[0m" << endl;
-    cout << setw(110) << " Enter your name: ";
+    cout << setw(175) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------------\033[0m" << endl;
+    cout << setw(172) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------\033[0m" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(173) << "\033[38;2;0;150;170m                      Welcome to the Social Realism test!                      \033[0m" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(172) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------\033[0m" << endl;
+    cout << setw(175) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------------\033[0m" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(115) << " Enter your name: ";
     cin.ignore();
     getline(cin, userName);
-    cout << setw(120) << "Enter your grade(9A, 9B, 9V, 9G)  ";
+    cout << setw(127) << "Enter your grade(9A, 9B, 9V, 9G)  ";
     cin >> userGrade;
 
 
@@ -322,6 +326,14 @@ void SocialRealismTest()
 
     cout << setw(80) << " " << endl;
     cout << setw(100) << " " << endl;
+    cout << setw(100) << " " << endl;
+    cout << setw(100) << " " << endl;
+    cout << setw(100) << " " << endl;
+    cout << setw(100) << " " << endl;
+    cout << setw(100) << " " << endl;
+    cout << setw(100) << " " << endl;
+    cout << setw(100) << " " << endl;
+    cout << setw(100) << " " << endl;
     cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
     cout << setw(100) << " " << endl;
     cout << "\033[94m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
@@ -373,13 +385,16 @@ void SocialRealismTest()
 
 
     char choice;
-    cout << "                                             Enter 'y/Y' if you wish to see the leaderboards for this test, or 'n/N' if you wish to return to the main menu: " << endl;
-    cin >> choice;
+    cout << setw(100) << " " << endl;
+    cout << "                                                        Enter 'y/Y' if you wish to see the leaderboards for this test, or 'n/N' if you wish to return to the main menu: " << endl;
     cout << setw(80) << " " << endl;
     cout << setw(100) << " " << endl;
-    cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
-    cout << setw(100) << " " << endl;
     cout << "\033[94m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+    cout << setw(100) << " " << endl;
+    cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+
+
+    cin >> choice;
     if (choice == 'y' || choice == 'Y') {
         leaderboardRealism();
     }
