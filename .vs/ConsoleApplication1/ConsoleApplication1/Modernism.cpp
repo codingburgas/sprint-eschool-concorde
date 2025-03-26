@@ -14,13 +14,35 @@ using namespace std;
 
 void ModernismTest()
 {
+   
+
+    system("CLS");
     string userName;
     string userGrade;
-    cout << "                    Enter your name: ";
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(160) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------\033[0m" << endl;
+    cout << setw(160) << "\033[38;5;180m                      Welcome to the Modernism test!                      \033[0m" << endl;
+    cout << setw(160) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------\033[0m" << endl;
+    cout << setw(110) << " Enter your name: ";
     cin.ignore();
     getline(cin, userName);
-    cout << "                    Enter your grade (9A, 9B, 9V, 9G):  ";
+    cout << setw(120) << "Enter your grade(9A, 9B, 9V, 9G)  ";
     cin >> userGrade;
+
+
+
     //questions and their respective answers
 
     string questionsEasy[20] = {

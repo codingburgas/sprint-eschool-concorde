@@ -21,9 +21,19 @@ void SocialRealismTest()
     cout << setw(80) << "" << endl;
     cout << setw(80) << "" << endl;
     cout << setw(80) << "" << endl;
-    cout << setw(160) << "\033[38;5;180m-----------------------------------------------------------------------------------\033[0m" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+
+    cout << setw(160) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------\033[0m" << endl;
     cout << setw(160) << "\033[38;5;180m                      Welcome to the Social Realism test!                      \033[0m" << endl;
-    cout << setw(160) << "\033[38;5;180m-----------------------------------------------------------------------------------\033[0m" << endl;
+    cout << setw(160) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------\033[0m" << endl;
     cout << setw(110) << " Enter your name: ";
     cin.ignore();
     getline(cin, userName);

@@ -17,13 +17,33 @@ using namespace std;
 void AgeOfenlightenmentTest()
 {
 
+   
+    system("CLS");
     string userName;
     string userGrade;
-	cout << "                    Enter your name: ";
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(160) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------\033[0m" << endl;
+    cout << setw(160) << "\033[38;5;180m                      Welcome to the The Age of Enlightment test!                      \033[0m" << endl;
+    cout << setw(160) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------\033[0m" << endl;
+    cout << setw(110) << " Enter your name: ";
     cin.ignore();
-	getline(cin, userName);
-	cout << "                    Enter your grade (9A, 9B, 9V, 9G):  ";
+    getline(cin, userName);
+    cout << setw(120) << "Enter your grade(9A, 9B, 9V, 9G)  ";
     cin >> userGrade;
+
+
     //questions and their respective answers
     string questionsEasy[20] = {
     string(84, ' ') + "What was the Age of Enlightenment?\n" + string(84, ' ') + "(a) A religious revival\n" + string(84, ' ') + "(b) An intellectual movement emphasizing reason and individualism\n" + string(84, ' ') + "(c) A period of war in Europe\n" + string(84, ' ') + "(d) A time of artistic decline\n" + string(84, ' '),
