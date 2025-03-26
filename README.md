@@ -28,10 +28,6 @@ Concorde is a program which is designed to test your skills and knowledge on Lit
  🔑 Easy navigation so you can access the tests and leaderboards easier.  <br>
  👓 Check you results within the leaderboards and see how you've done among other users. <br>
 
- ## Resources
-- **[Presentation](ConcordePresentation.pptx)** <br>
-- **[Documentation](ConcordeDocumentation.docx)** <br>
-
 
 ## Team Members
 
