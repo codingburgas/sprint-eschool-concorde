@@ -38,9 +38,9 @@ int main() {
     cout << "\033[38;2;255;165;100m" << setw(124) << "CHOOSE ONE OF THE FOLLOWING:" << "\033[0m" << endl;
     cout << setw(100) << " " << endl;
     cout << "\033[38;2;255;165;100m" << setw(120) << "1. Head to Test Section" << "\033[0m" << endl;
-    cout << "\033[38;2;255;165;100m" << setw(120) << "2. Leaderboards" << "\033[0m" << endl;
-    cout << "\033[38;2;255;165;100m" << setw(115) << "3. Credits" << "\033[0m" << endl;
-    cout << "\033[38;2;255;165;100m" << setw(118) << "4. Exit Program" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(119) << "2. Leaderboards" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(114) << "3. Credits" << "\033[0m" << endl;
+    cout << "\033[38;2;255;165;100m" << setw(117) << "4. Exit Program" << "\033[0m" << endl;
     cout << setw(80) << " " << endl;
     cout << setw(100) << " " << endl;
     cout << "\033[94m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;

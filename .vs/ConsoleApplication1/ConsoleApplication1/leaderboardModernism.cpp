@@ -3,8 +3,9 @@
 #include <string>
 #include <sstream>
 #include <algorithm> 
+#include <iomanip>
 #include "leaderboardModernism.h"
-#include "main.h"
+#include "MenuLeaderboards.h"
 #include "TestMenu.h"
 using namespace std;
 
@@ -26,9 +27,32 @@ void leaderboardModernism() {
     // Skip the header line
     getline(file, line);
 
-    cout << "===== Modernism Leaderboard =====" << endl;
-    cout << "Name\t\tGrade\tScore (%)\tFinal Grade" << endl;
-    cout << "-----------------------------------------" << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << "\033[38;2;30;170;190m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+    cout << setw(80) << " " << endl;
+    cout << "\033[38;2;30;170;190m" << setw(155) << "----------------------------------------------------------------------------------------------" << "\033[0m" << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << "\033[38;2;0;180;200m" << setw(148) << "  _______  _______  ______   _______  _______  _       _________ _______  _______ " << "\033[0m" << endl;
+    cout << "\033[38;2;0;180;200m" << setw(148) << " (       )(  ___  )(  __  \\ (  ____ \\(  ____ )( (    /|\\__   __/(  ____ \\(       )" << "\033[0m" << endl;
+    cout << "\033[38;2;0;180;200m" << setw(148) << " | () () || (   ) || (  \\  )| (    \\/| (    )||  \\  ( |   ) (   | (    \\/| () () |" << "\033[0m" << endl;
+    cout << "\033[38;2;0;180;200m" << setw(148) << " | || || || |   | || |   ) || (__    | (____)||   \\ | |   | |   | (_____ | || || |" << "\033[0m" << endl;
+    cout << "\033[38;2;0;180;200m" << setw(148) << " | |(_)| || |   | || |   | ||  __)   |     __)| (\\ \\) |   | |   (_____  )| |(_)| |" << "\033[0m" << endl;
+    cout << "\033[38;2;0;180;200m" << setw(148) << " | |   | || |   | || |   ) || (      | (\\ (   | | \\   |   | |         ) || |   | |" << "\033[0m" << endl;
+    cout << "\033[38;2;0;180;200m" << setw(148) << " | )   ( || (___) || (__/  )| (____/\\| ) \\ \\__| )  \\  |___) (___/\\____) || )   ( |" << "\033[0m" << endl;
+    cout << "\033[38;2;0;180;200m" << setw(147) << " |/     \\|(_______)(______/ (_______/|/   \\__/|/    )_\\_______/\\_______)|/     \\|" << "\033[0m" << endl;
+    cout << setw(80) << " " << endl;
+    cout << setw(80) << " " << endl;
+    cout << "\033[38;2;0;180;200m" << setw (65) << "Name" << "\t\t" << setw(21) << "Grade" << "\t" << setw(18) << "Score" << "(%)\t" << setw(33) << "Final Grade" << endl;
+    cout << "\033[38;2;30;170;190m" << setw(160) << "--------------------------------------------------------------------------------------------------------" << endl;
+    
 
     // Read the file line by line
     while (getline(file, line)) {
@@ -44,10 +68,10 @@ void leaderboardModernism() {
         ss >> finalGrade; // Read finalGrade
 
         // Print the values read from the file
-        cout << name << "\t\t" << grade << "\t" << score << "%\t\t" << finalGrade << endl;
+        cout << setw(65) << name << "\t\t" << setw(20) <<  grade << "\t" << setw(20) << score << "%\t\t" << setw(20) << finalGrade << endl;
     }
-
-    cout << "Enter 1 to return to the test menu or 2 to return to the main menu: ";
+    cout << "" << endl;
+    cout << setw(143) << "Enter 1 to return to the test menu or 2 to return to the leaderboard menu. ";
     int choice;
     cin >> choice;
 
@@ -55,10 +79,12 @@ void leaderboardModernism() {
         testmenu();
     }
     else if (choice == 2) {
-        main();
+        LeaderboardsMenu();
     }
     else {
+		system("CLS");
         cout << "Invalid input, try again!" << endl;
+		leaderboardModernism();
     }
 
 

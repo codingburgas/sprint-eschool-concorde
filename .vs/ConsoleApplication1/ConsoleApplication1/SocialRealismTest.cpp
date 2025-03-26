@@ -13,13 +13,34 @@ using namespace std;
 
 void SocialRealismTest()
 {
+   
+    system("CLS");
     string userName;
     string userGrade;
-    cout << "                    Enter your name: ";
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+    cout << setw(80) << "" << endl;
+
+    cout << setw(160) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------\033[0m" << endl;
+    cout << setw(160) << "\033[38;5;180m                      Welcome to the Social Realism test!                      \033[0m" << endl;
+    cout << setw(160) << "\033[38;2;0;150;170m-----------------------------------------------------------------------------------\033[0m" << endl;
+    cout << setw(110) << " Enter your name: ";
     cin.ignore();
     getline(cin, userName);
-    cout << "                    Enter your grade (9A, 9B, 9V, 9G):  ";
+    cout << setw(120) << "Enter your grade(9A, 9B, 9V, 9G)  ";
     cin >> userGrade;
+
+
     //questions and their respective answersw
     string questionsEasy[20] = {
     string(84, ' ') + "What is social realism?\n" + string(84, ' ') + "a) A literary movement depicting social issues.\n" + string(84, ' ') + "b) A fantasy genre.\n" + string(84, ' ') + "c) A political ideology.\n" + string(84, ' ') + "d) A historical period.",
@@ -339,7 +360,7 @@ void SocialRealismTest()
     }
 
     cout << setw(116) << "Your final grade is: " << FinalGrade << endl;
-    cout << setw(120) << "Your score is: " << fixed << setprecision(2) << GradeRealism << "%" << endl;
+    cout << setw(110) << "Your score is: " << fixed << setprecision(2) << GradeRealism << "%" << endl;
 
     ofstream leaderboard("leaderboardRealism.txt", ios::app);
     if (leaderboard.is_open()) {
@@ -352,7 +373,7 @@ void SocialRealismTest()
 
 
     char choice;
-    cout << "                            Enter 'y/Y' if you wish to see the leaderboards for this test, or 'n/N' if you wish to return to the main menu: " << endl;
+    cout << "                                             Enter 'y/Y' if you wish to see the leaderboards for this test, or 'n/N' if you wish to return to the main menu: " << endl;
     cin >> choice;
     cout << setw(80) << " " << endl;
     cout << setw(100) << " " << endl;
